@@ -45,7 +45,7 @@ class Utility{
 
     passWord = (pass) => {
 
-        this.Pattern = RegExp(`^(?=.*[A-Z])[a-z](?=.*\d)\S{8,}$`);
+        this.Pattern = RegExp(`^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$`);
 
         if(this.Pattern.test(pass))
             console.log(`\n * ${pass} Is Valid Password..!`)
