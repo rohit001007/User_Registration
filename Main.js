@@ -12,3 +12,6 @@ utility.eMail(email);
 
 var mobNum = readlineSync.question(`\n * Enter Mobile Number : `)
 utility.mobileNumber(mobNum);
+
+var pass = readlineSync.question(`\n * Enter Password : `)
+utility.passWord(pass);
