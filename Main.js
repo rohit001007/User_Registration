@@ -6,3 +6,6 @@ utility.firstName(fName);
 
 var lName = readlineSync.question(`\n * Enter Last name : `)
 utility.lastName(lName);
+
+var email = readlineSync.question(`\n * Enter E-Mail ID : `)
+utility.eMail(email);
