@@ -9,3 +9,6 @@ utility.lastName(lName);
 
 var email = readlineSync.question(`\n * Enter E-Mail ID : `)
 utility.eMail(email);
+
+var mobNum = readlineSync.question(`\n * Enter Mobile Number : `)
+utility.mobileNumber(mobNum);

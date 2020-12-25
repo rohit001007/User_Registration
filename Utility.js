@@ -30,6 +30,18 @@ class Utility{
         
         return this.Pattern;
     }
+
+    mobileNumber = (number) => {
+        
+        this.Pattern = RegExp('^([+][1-9]{1,3}[- ]?)?[1-9]{10}$');
+
+        if(this.Pattern.test(number))
+            console.log(`\n * ${number} Is Valid Mobile Number..!`)
+        else
+            console.log(`\n * ${number} Is Not Valid Mobile Number..!`)
+        
+        return this.Pattern;
+    }
 }
 
 module.exports = new Utility();
