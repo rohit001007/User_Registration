@@ -12,6 +12,12 @@ class Utility{
         
         return this.Pattern;
     } 
+
+    lastName = (name) => {
+
+        this.firstName(name);
+        return this.Pattern;
+    }
 }
 
 module.exports = new Utility();
